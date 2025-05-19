@@ -3,7 +3,7 @@ import gymnasium as gym
 
 def main():
     # Create the MountainCar environment
-    env = gym.make('CartPole-v1', render_mode="human")
+    env = gym.make('LunarLander-v3', render_mode="human")
 
     # Number of episodes to run
     num_episodes = 3

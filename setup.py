@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 requirements = [
     'gymnasium',
-    # 'gymnasium[classic-control]'
+    'gymnasium[classic-control]',
+    'gymnasium[box2d]',
 ]
 
 train_requirements = [
@@ -13,11 +14,11 @@ train_requirements = [
 ]
 
 setup(
-    name="AwesomeProject",
+    name="DIC",
     version="0.1.0",
-    author="Phil McCavity",
-    author_email="phil.mccavity@example.com",
-    description="A completely working example",
+    author="Tristan Tomilin",
+    author_email="t.tomilin@tue.nl",
+    description="DQN demo",
     packages=find_packages(),
     install_requires=requirements,
     extras_require={
