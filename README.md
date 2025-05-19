@@ -25,7 +25,7 @@ pip install .[train]
 ## Run
 
 ```
-python 1_run_gym_cartpole.py
+python scripts/1_run_gym_cartpole.py
 ```
 
                  |       :     . |  
