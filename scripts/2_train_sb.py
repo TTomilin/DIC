@@ -33,7 +33,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--algorithm', type=str, default='PPO', help='RL algorithm',
                         choices=['DQN', 'A2C', 'PPO', 'SAC', 'TD3'])
-    parser.add_argument('--project', type=str, default='ExperimentalSetup', help='Wandb project name')
+    parser.add_argument('--project', type=str, default='DQN Demo', help='Wandb project name')
     parser.add_argument('--env_name', type=str, default='CartPole-v1', help='Environment name',
                         choices=['FrozenLake-v1', 'MountainCar-v0', 'MountainCarContinuous-v0', 'CartPole-v1',
                                  'Acrobot-v1', 'Pendulum-v1', 'LunarLander-v3', 'CarRacing-v3'])
