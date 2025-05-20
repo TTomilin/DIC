@@ -10,7 +10,7 @@ from stable_baselines3.common.callbacks import EvalCallback
 from stable_baselines3.common.env_util import make_vec_env
 from wandb.integration.sb3 import WandbCallback
 
-from env.utils.utils import MultiSegmentWandBVecVideoRecorder, make_env, create_model
+from env.utils import make_env, create_model, MultiSegmentWandBVecVideoRecorder
 
 
 def main(args: argparse.Namespace):
