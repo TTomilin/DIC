@@ -9,7 +9,7 @@ from stable_baselines3.common.callbacks import EvalCallback
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.vec_env import VecVideoRecorder
 
-from env.utils import make_env, create_model
+from gym_env.utils import make_env, create_model
 
 
 def main(args: argparse.Namespace):
