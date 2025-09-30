@@ -7,19 +7,13 @@ cd DIC
 
 ### Conda (recommended)
 ```bash
-conda create -n dqn_demo python=3.11
-conda activate dqn_demo
-conda install conda-forge::gcc
+conda create -n demo python=3.11
+conda activate demo
 ```
 
 ### Run env
 ```bash
 pip install .
-```
-
-### Train
-```bash
-pip install .[train]
 ```
 
 ## Run

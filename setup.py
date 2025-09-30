@@ -14,11 +14,11 @@ train_requirements = [
 ]
 
 setup(
-    name="DIC",
+    name="Experimental Setup",
     version="0.1.0",
     author="Tristan Tomilin",
     author_email="t.tomilin@tue.nl",
-    description="DQN demo",
+    description="Demo",
     packages=find_packages(),
     install_requires=requirements,
     extras_require={
