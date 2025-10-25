@@ -4,6 +4,7 @@ requirements = [
     'gymnasium',
     'gymnasium[classic-control]',
     'gymnasium[box2d]',
+    'levdoom',
 ]
 
 train_requirements = [
